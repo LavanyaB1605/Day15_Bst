@@ -25,5 +25,11 @@ public class Main extends BST_Class {
         //print the BST
         System.out.println("The BST Created with input data(Left-root-right):");
         bst.inorder();
+        System.out.println(" ");
+        //search a key in the BST
+        boolean ret_val = bst.search (70);
+        System.out.println("\nKey 50 found in BST:" + ret_val );
+        ret_val = bst.search (63);
+        System.out.println("\nKey 63 found in BST:" + ret_val );
     }
 }
